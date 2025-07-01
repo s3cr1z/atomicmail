@@ -3,7 +3,7 @@
   "name": "Atomicmail Quick Access",
   "version": "1.0",
   "description": "Provides quick access to your Atomicmail inbox.",
-  "permissions": ["activeTab"],
+  "permissions": ["tabs"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
