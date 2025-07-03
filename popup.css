@@ -1,13 +1,15 @@
 body, html {
   margin: 0;
   padding: 0;
-  width: 375px; /* Common mobile width (e.g., iPhone X) */
-  height: 600px; /* Default height, can be adjusted */
-  overflow: hidden; /* Hide scrollbars from the body */
+  width: 360px; /* Optimized for mobile breakpoints */
+  height: 600px;
+  overflow: hidden;
 }
 
 #atomicmail-iframe {
-  width: 100%;
+  width: 360px; /* Explicit width to trigger mobile CSS */
   height: 100%;
-  border: none; /* Remove default iframe border */
+  border: none;
+  transform: scale(1); /* Ensure proper scaling */
+  transform-origin: 0 0;
 }
